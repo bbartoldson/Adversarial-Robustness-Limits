@@ -1,0 +1,15 @@
+{
+      "batch_size": 2048,
+      "batch_size_validation": 2048,
+      "data_dir": "/p/vast1/MLdata/",
+      "log_dir": "/p/vast1/zeroml/trained/b/",
+      "desc": "modelwrn-94-16-swish_data500_bs2048_lr0.1_fnvanilla20dg20pfgmpp18_withCIFARfrom6000to10000",
+      "model": "wrn-94-16-swish",
+      "num_adv_epochs": 10000,
+      "beta": 5.0,
+      "lr": 0.1,
+      "unsup_fraction": 0.875,
+      "aux_data_filename": "!vanilla20dg20pfgmpp18",
+      "resume_path": "/p/vast1/zeroml/trained/b/modelwrn-94-16-swish_data500_bs2048_lr0.1_fnvanilla20dg20pfgmpp18_withCIFARfrom6000to10000",
+      "one_epoch": true
+}

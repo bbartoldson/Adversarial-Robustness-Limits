@@ -1,0 +1,14 @@
+{
+      "batch_size_validation": 1024,
+      "data_dir": "/p/vast1/MLdata/",
+      "log_dir": "/p/vast1/zeroml/trained/b/",
+      "desc": "scaling_study_example_modelwrn-28-8-swish_data5_bs1024_lr0.3_fndg20",
+      "model": "wrn-28-8-swish",
+      "num_adv_epochs": 100,
+      "beta": 5.0,
+      "lr": 0.3,
+      "unsup_fraction": 1,
+      "aux_data_filename": "!dg20",
+      "resume_path": "/p/vast1/zeroml/trained/b/scaling_study_example_modelwrn-28-8-swish_data5_bs1024_lr0.3_fndg20",
+      "better_sampler": true
+}
