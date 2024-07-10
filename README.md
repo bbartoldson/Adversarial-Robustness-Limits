@@ -1,19 +1,19 @@
 # Adversarial Robustness Limits
 
-This is the official repository for the ICML 2024 paper [Adversarial Robustness Limits via Scaling-Law and Human-Alignment Studies](https://arxiv.org/abs/2404.09349). 
+This is the official repository for the ICML 2024 paper [Adversarial Robustness Limits via Scaling-Law and Human-Alignment Studies](https://arxiv.org/abs/2404.09349). This paper revisits the simple, long-studied, yet still unsolved problem of making image classifiers robust to imperceptible perturbations. 
 
 ![Figure](https://github.com/bbartoldson/Adversarial-Robustness-Limits/assets/15717529/b83d023f-4a28-473c-ae41-ead42941d5f0)
 
-This paper revisits the simple, long-studied, yet still unsolved problem of making image classifiers robust to imperceptible perturbations. Focusing on performance of CIFAR-10 classifiers on data attacked by $`\ell_{\infty}`$-norm-constrained perturbations, we derive scaling laws that suggest NN adversarial robustness asymptotes around $90$%. Corroborating this limit, we find that humans quizzed on adversarial images that successfully attack our NN with SOTA robustness fail at a rate that is consistent with their performances also having a peak of about $90$%.
-
-Through our human study, we also show evidence for our hypothesis that both these limits are induced by invalid adversarial data: images that have been perturbed such that their original ground-truth label no longer applies.
+Focusing on performance of CIFAR-10 classifiers on data attacked by $`\ell_{\infty}`$-norm-constrained perturbations, we derive scaling laws that suggest NN adversarial robustness asymptotes around $90$%. Corroborating this limit, we find that humans quizzed on adversarial images that successfully attack our NN with SOTA robustness fail at a rate that is consistent with their performances also having a peak of about $90$%.
 
 
 ## Take the quiz
 
-Given images that can be perturbed to successfully attack our NN with SOTA robustness, our paper studied human performance on the clean and perturbed versions of the images. We found humans often agreed with the NN label on the perturbed images, suggesting the ground-truth label can be changed by the perturbation (despite its constrained magnitude), and that NNs should not be considered incorrect on such "invalid" adversarial data. Other times, humans correctly classified the perturbed images, illustrating areas where NNs can still improve.
+Given images that can be perturbed to successfully attack our NN with SOTA robustness, our paper studied human performance on the clean and perturbed versions of the images. 
 
 See your performance on a 25-image sample of this data via the [Human Perception Robustness Quiz](https://adversarial-robustness-limit-quiz.netlify.app/).
+
+We found humans often agreed with the NN label on the perturbed images, suggesting the ground-truth label can be changed by the perturbation (despite its constrained magnitude), and that NNs should not be considered incorrect on such "invalid" adversarial data. Other times, humans correctly classified the perturbed images, illustrating areas where NNs can still improve. Please see our paper for more information.
 
 
 ## Learn scaling laws on trained model data
