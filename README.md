@@ -7,7 +7,7 @@ This is the official repository for the ICML 2024 paper [Adversarial Robustness 
 Focusing on performance of CIFAR-10 classifiers on data attacked by $`\ell_{\infty}`$-norm-constrained perturbations, we derive scaling laws that suggest NN adversarial robustness asymptotes around $90$%. Corroborating this limit, we find that humans quizzed on adversarial images that successfully attack our NN with SOTA robustness fail at a rate that is consistent with their performances also having a peak of about $90$%.
 
 
-## Take the quiz
+## :memo: Take the quiz
 
 Given images that can be perturbed to successfully attack our NN with SOTA robustness, our paper studied human performance on the clean and perturbed versions of the images. 
 
@@ -16,12 +16,12 @@ See your performance on a 25-image sample of this data via the [Human Perception
 We found humans often agreed with the NN label on the perturbed images, suggesting the ground-truth label can be changed by the perturbation (despite its constrained magnitude), and that NNs should not be considered incorrect on such "invalid" adversarial data. Other times, humans correctly classified the perturbed images, illustrating areas where NNs can still improve. Please see our paper for more information.
 
 
-## Learn scaling laws on trained model data
+## :chart_with_upwards_trend: Learn scaling laws on trained model data
 
 The notebook `Scaling_law_fitting_and_plots.ipynb` illustrates how to fit our three different scaling law approaches and use the fits to reproduce the related plots in our paper.
 
 
-## Train models
+## :weight_lifting: Train models
 
 The `configs` folder has examples of specific configurations (e.g. that of our SOTA run), and illustrates how to launch a job to train with one of these configurations on Lassen (an LLNL machine with the LSF job manager). Our job launching script `submit.py` is explained below.
 
