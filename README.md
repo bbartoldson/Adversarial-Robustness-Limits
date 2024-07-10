@@ -2,6 +2,8 @@
 
 This is the official repository for the ICML 2024 paper [Adversarial Robustness Limits via Scaling-Law and Human-Alignment Studies](https://arxiv.org/abs/2404.09349). 
 
+![Figure](https://github.com/bbartoldson/Adversarial-Robustness-Limits/assets/15717529/b83d023f-4a28-473c-ae41-ead42941d5f0)
+
 This paper revisits the simple, long-studied, yet still unsolved problem of making image classifiers robust to imperceptible perturbations. Focusing on performance of CIFAR-10 classifiers on data attacked by $`\ell_{\infty}`$-norm-constrained perturbations, we derive scaling laws that suggest NN adversarial robustness asymptotes around $90$%. Corroborating this limit, we find that humans quizzed on adversarial images that successfully attack our NN with SOTA robustness fail at a rate that is consistent with their performances also having a peak of about $90$%.
 
 Through our human study, we also show evidence for our hypothesis that both these limits are induced by invalid adversarial data: images that have been perturbed such that their original ground-truth label no longer applies.
