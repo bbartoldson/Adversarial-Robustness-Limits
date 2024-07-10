@@ -18,6 +18,8 @@ See your performance on a 25-image sample of this data via the [Human Perception
 
 ## Learn scaling laws on trained model data
 
+The notebook `Scaling_law_fitting_and_plots.ipynb` illustrates how to fit our three different scaling law approaches and use the fits to reproduce the related plots in our paper.
+
 
 ## Train models
 
